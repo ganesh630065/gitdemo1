@@ -1,0 +1,59 @@
+//binary search using methods
+class Ar8
+ {
+   /* void s1()
+      {
+        int a[]={12,21,23,34,45,54};
+        int search=45,count=0;
+        for(int x=0;x<=a.length-1;x++)
+         {
+            if(a[x]==search)
+             {
+               System.out.println("search element is "+a[x]);
+               count++;
+               break;
+             }
+         }
+        if(count==0)
+         {
+           System.out.println("element is not search "+search);
+         }
+       }
+   public static void main(String args[])
+    {
+      Ar8 a8=new Ar8();
+      a8.s1();
+    }*/
+
+
+
+//finding max element in an array
+    /*  void cals()
+        {
+          int a[]={12,21,32,23,34,43};
+          int  max=0;
+          for(int x=0;x<=a.length-1;x++)
+           {
+              if(max<a[x])
+                  max=a[x];
+           }
+		System.out.println(max);
+         }
+        public static void main(String args[])
+          {
+            Ar8 a8=new Ar8();
+            a8.cals();
+          }*/
+
+
+
+//finding minimum element in an array
+         int a[]={12,21,32,23,43,34,4};
+         int min=0;
+         for(int x=0;x<a.length;x++)
+	   {
+             if(a[x]<min)
+		min=a[x];
+           }
+		System.out.priintln(min);
+ }
