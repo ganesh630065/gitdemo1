@@ -4,9 +4,9 @@ class An
 	public static void main(String args[])
 	{
 		Encapus p=new Encapus();
-		p.setage(22);//method call
-		p.setname("ganesh");
-		System.out.println(p.getage()+" "+p.getname());
+		p.setAge(22);//method call
+		p.setName("ganesh");
+		System.out.println(p.getAge()+" "+p.getName());
 	}
 }
 
@@ -15,20 +15,20 @@ class An
 		private int age;//private variable
 		private String name;
 		
-	public int getage()
+	public int getAge()
 	{
 		return age;
 	} 
-	public void setage(int i)
+	public void setAge(int age)
 	{
-		age=i;
+		this.age=age;
 	}
-	public String getname()
+	public String getName()
 	{
 		return name;
 	}
-	public void setname(String s)
+	public void setName(String name)
 	{
-		name=s;
+		this.name=name;
 	}
 	}
